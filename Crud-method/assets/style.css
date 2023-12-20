@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    padding:8px;
+    background-color:orangered;
+}
+.header h1{
+    font-weight: bolder;
+    color: white;
+}
+
+/* upper-btn-box */
+
+.upper-btn-box{
+    width: 100%;
+    height: 100px;
+   display: flex;
+}
+.upper-btn-box .left-box{
+width: 50%;
+height: 100%;
+}
+.upper-btn-box .left-box button{
+  border: none;
+  outline: none;
+  padding:13px;
+  font-size: 22px;
+  box-shadow:3px 3px 4px black;
+}
+.upper-btn-box .right-box button{
+    background-color:orangered;
+}
+.upper-btn-box .right-box{
+    width: 50%;
+    height: 100%;
+    
+}
+.upper-btn-box .right-box i{
+     font-size: 25px;
+     color: #17a2b8;
+}
+.upper-btn-box .right-box input{
+    width: 80%;
+    padding: 13px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #17a2b8;
+
+}
+
+/* table.box */
+
+.table-box{
+    width: 100%;
+    padding:30px;
+}
+.table-box table{
+    width: 100%;
+    
+   
+}
+.table-box table tr th{
+    border-radius: 1px solid ccc;
+    padding: 30px;
+    border-bottom:1px solid #ccc ;
+}
+.table-box table tr td{
+    border-bottom:1px solid #ccc;
+    border-right:1px solid #ccc ;
+    text-align: center;
+    padding: 4px;
+}
+.table-box table tr td button{
+    width: 35%;
+    border: none;
+    outline: none;
+    padding:13px;
+    font-size: 18px;
+    box-shadow:3px 3px 4px black;
+    padding: 5px;
+}
+.table-box table tr td button:first-child{
+background-color:#398139
+}
+.table-box table tr td button:last-child{
+    background-color:orangered;
+    }
+
+
+/* modals */
+
+.modall{
+    width: 70%;
+    height: 500px;
+    background-color: #4286F5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    display: flex;
+}
+.modall .left-modal{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+
+}
+.modall .right-modal{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+ 
+    
+}
+.modall .left-modal .img-box{
+    width: 100%;
+    height: 300%;
+    background-color: blue;
+    display: flex;
+    padding: 30px;
+    position: relative;
+}
+.modall .left-modal .img-box i{
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    right:60px;
+    top: 90px;
+    color: blue;
+}
+.modall .left-modal .img-box img{
+    border-radius: 10px;
+}
+.modall .left-modal .img-box input{
+    width: 40px;
+    height: 40px;
+}

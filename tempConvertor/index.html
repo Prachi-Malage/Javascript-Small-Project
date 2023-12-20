@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a9545f17e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="backHomeBtn"><a href="../index.html"><i class="fa-solid fa-left-long fa-lg"></i> Go to home page....</a></div>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+    <label for="temp">Please enter the temprature you'd like to convert.</label>
+    <br><input type="number" name="temp" id="temp">
+
+    <select name="temp_diff" id="temp_diff">
+        <option value="cel">°Celsius</option>
+        <option value="fah">°Fatrenheit</option>
+
+    </select><br>
+
+    <input type="submit" name="temp"><br>
+    <span id="resultContainer"></span>
+    
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+</html>

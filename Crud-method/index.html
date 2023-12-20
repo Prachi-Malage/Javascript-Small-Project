@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- <h1 class="bg-primary text-white p-4 mb-4">User Data</h1>
+    <div class="container"> 
+        <div class="row">   
+            <div class="col-sm-3">
+                <form action="" id="studentForm">
+                    <div class="form-group">
+                        <label for="fname">frist name</label>
+                        <input type="text" id="fname" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact</label>
+                        <input type="text" id="contact" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="col-sm-7 offset-sm-1">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>sr.no</th>
+                            <th>Frist Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>contact</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="stdInfo">  
+                        
+                    </tbody> 
+                </table>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="header">
+        <h1>Employee Details</h1>
+    </div>
+    <div class="upper-btn-box mt-2">
+        <div class="left-box">
+            <button class="btn btn-info ml-2"><i class="fa fa-plus mr-1"></i> Add Employee</button>
+            <button class="btn btn-info  ml-2"><i class="fa fa-eraser mr-1"></i>Clear Filtering</button>
+        </div>
+        <div class="right-box mt-2">
+            <i class="fa fa-search"></i>
+            <input type="text" id="empId" placeholder="Enter Employee Id">
+            <button class="btn text-white">Serach</button>
+        </div>
+    </div>
+    <div class="table-box mt-3">
+        <table>
+            <tr>
+                <th>Sr No</th>
+                <th>Profile</th>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Last Name</th>
+                <th>E-mail</th>
+                <th>Office Code</th>
+                <th>Job Title</th>
+                <th>Actions</th>
+            </tr>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td> hellow</td>
+            <td>
+                <button class="mr-2"><i class="fa fa-eye "></i></button>
+                <button><i class="fa fa-trash"></i></button>
+            </td>
+        </table>
+    </div>
+    <div class="modall">
+        <div class="left-modal">
+            <div class="img-box">
+                <img src="./assets/images/download.jpg" alt="" width="150" height="150">
+                <i class="fa fa-plus"></i>
+                <input type="file">
+            </div>
+        </div>
+        <div class="right-modal">
+        </div>
+    </div>
+    <script src="./assets/app.js"></script>
+</body>
+</html>
