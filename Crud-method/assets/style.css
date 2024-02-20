@@ -12,6 +12,16 @@
     font-weight: bolder;
     color: white;
 }
+.backHomeBtn{
+    position:absolute;
+    top: 5%;
+    left: 2%;
+    font-size: 20px;
+}
+.backHomeBtn a{
+    color: #f8b627;
+    text-decoration: none;
+}
 
 /* upper-btn-box */
 

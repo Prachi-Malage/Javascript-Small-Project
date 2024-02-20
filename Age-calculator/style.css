@@ -9,6 +9,16 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+.backHomeBtn{
+    position:absolute;
+    top: 5%;
+    left: 2%;
+    font-size: 20px;
+}
+.backHomeBtn a{
+    color: #f8b627;
+    text-decoration: none;
+}
 .container{
     box-shadow: 0 0 4px 1px rgb(51, 186, 163);
     width: 400px;
